@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D6DD248-BA4B-0A3A-492A-6CDFF9A92BE6" name="PRODUCTO">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:52:22 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="E99BB126-9968-38B1-9674-8DBFB94E7BD6">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:52:28 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="8A6E38D4-C66B-0881-EA61-F16925604435">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:52:32 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock" id="3F262389-2080-EFE0-62F0-F6F38A521B1E">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:52:37 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="2B7B45F7-6548-711E-987F-8CA08679696A">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:52:57 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo1" id="173B4F6C-61B3-03CA-CB01-A84E9680AD99">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:55:45 UTC</createdTime>
+<generatorID>78038641-EEF1-2DED-DDCB-814FA18F1838</generatorID>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<referedAttribute>3FC1E805-F866-BFD9-3C36-F18A03AEDE3F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="998D0930-2C61-0898-EB5B-042F66606E08" name="PRODUCTO PK">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:53:02 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E99BB126-9968-38B1-9674-8DBFB94E7BD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

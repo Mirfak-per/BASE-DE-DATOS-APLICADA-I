@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="53E3DB6F-AB89-0453-DC4A-2235C63B2641" name="PERSONA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="F6989E23-4AB3-3897-6644-3978C92A85A0" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="5D6DD248-BA4B-0A3A-492A-6CDFF9A92BE6" name="PRODUCTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="F6989E23-4AB3-3897-6644-3978C92A85A0" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="993B768E-D5E0-FD36-43AE-33D036263CB9" name="VENTA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="F6989E23-4AB3-3897-6644-3978C92A85A0" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="B33E37ED-CC04-3899-C4AE-AB2342DE5C2D" name="Relation_4" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="F6989E23-4AB3-3897-6644-3978C92A85A0" propertySourceId="53E3DB6F-AB89-0453-DC4A-2235C63B2641" propertyTargetId="993B768E-D5E0-FD36-43AE-33D036263CB9"/>
+   <object objectType="Relation" objectID="78038641-EEF1-2DED-DDCB-814FA18F1838" name="Relation_5" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="F6989E23-4AB3-3897-6644-3978C92A85A0" propertySourceId="993B768E-D5E0-FD36-43AE-33D036263CB9" propertyTargetId="5D6DD248-BA4B-0A3A-492A-6CDFF9A92BE6"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

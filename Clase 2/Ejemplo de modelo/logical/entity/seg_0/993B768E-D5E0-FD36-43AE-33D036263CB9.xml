@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="993B768E-D5E0-FD36-43AE-33D036263CB9" name="VENTA">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:51:40 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="3FC1E805-F866-BFD9-3C36-F18A03AEDE3F">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:51:46 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="8AF3F917-FF15-6B68-2A38-66BB29555638">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:51:50 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_a_pagar" id="2571841A-8904-2A71-7E3F-86C8C061078F">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:51:53 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descuento" id="B0FF544E-F4D0-2881-CFB5-FDCE3C35B5BB">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:52:08 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="6FEFA4FC-57FC-F481-A855-A9A993FDFF8C">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:57:21 UTC</createdTime>
+<generatorID>B33E37ED-CC04-3899-C4AE-AB2342DE5C2D</generatorID>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<referedAttribute>7B6A789E-F682-2516-8A88-85814A162D3F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="916C1DC1-0F20-D2D9-A1FF-32802889971F" name="VENTA PK">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:53:07 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FC1E805-F866-BFD9-3C36-F18A03AEDE3F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

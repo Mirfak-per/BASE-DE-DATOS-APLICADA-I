@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53E3DB6F-AB89-0453-DC4A-2235C63B2641" name="PERSONA">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:48:22 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="7B6A789E-F682-2516-8A88-85814A162D3F">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:48:53 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="8328967F-21AD-46F4-6F04-919B80B4B3FF">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:49:01 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="7F28CF1B-13DC-FACF-9935-EED88403E85F">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:49:07 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="5A037557-F65E-E6CA-3E83-DFD2E7F718E0">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:49:15 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_de_nacimiento" id="E40FD9CB-AFE0-D470-63EB-0211579B1AF7">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:49:21 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B46AB6AB-7D45-F3EF-9551-9A8589DF73E9" name="PERSONA PK">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 14:50:00 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo</ownerDesignName>
+<engineerTo>
+<item key="D0D5BC80-F4D0-C767-7357-C42E865FBD3A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B6A789E-F682-2516-8A88-85814A162D3F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
