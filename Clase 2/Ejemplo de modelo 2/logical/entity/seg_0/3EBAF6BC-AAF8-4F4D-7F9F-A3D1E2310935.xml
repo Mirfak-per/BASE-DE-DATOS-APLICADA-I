@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EBAF6BC-AAF8-4F4D-7F9F-A3D1E2310935" name="Libro">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:07:27 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="443B93A1-86EE-ADAB-B617-80C705B4D41E">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:07:40 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="C2AA2E32-FA61-848D-68F0-9902C716707E">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:07:43 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="año" id="B345C27C-A674-F966-9D24-25B7062C98B8">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:07:47 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISBN" id="B96D9F2E-CF30-7388-2B76-04799B600DD2">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:07:52 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_de_pagina" id="BEE4A33F-7CDE-87DD-2B3F-8EC1063A15ED">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:07:58 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo2" id="B335F049-73AB-2A78-0877-192E655F789D">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:12:53 UTC</createdTime>
+<generatorID>4E05A122-BAB8-2689-EAF9-BA0710C12FA7</generatorID>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<referedAttribute>E1E4EFC3-9C57-2FC4-69BE-3A38A18968BF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17F34916-2D60-4973-7240-B093B49B3DBD" name="Libro PK">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:08:12 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>443B93A1-86EE-ADAB-B617-80C705B4D41E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

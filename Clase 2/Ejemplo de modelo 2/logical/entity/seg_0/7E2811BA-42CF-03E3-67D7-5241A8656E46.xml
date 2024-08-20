@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E2811BA-42CF-03E3-67D7-5241A8656E46" name="TEMA">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:09:48 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="E1E4EFC3-9C57-2FC4-69BE-3A38A18968BF">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:09:58 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="0E58C340-B88E-08B6-90E5-4BE3FA44DB3D">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:10:06 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B161928E-76D7-51A6-2766-98F9CB6C0DFA" name="TEMA PK">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:10:05 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1E4EFC3-9C57-2FC4-69BE-3A38A18968BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

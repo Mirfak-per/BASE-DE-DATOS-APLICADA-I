@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FB8C751-C590-9C94-4A7B-85F8D4E7DBF8" name="AUTOR">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:08:28 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="5C082032-C645-F5F0-5944-F86DB3393228">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:08:45 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="5886412F-AC76-8607-FA26-08932137DA7F">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:08:51 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="546D11AA-C78E-DF79-4C49-49F155C39700">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:08:56 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seudonimo" id="E070B47A-E35E-2665-C5F7-7094C81BCF9C">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:09:03 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A28583E-2298-7FB2-ABE1-7F1F3F1EAA28" name="AUTOR PK">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:09:15 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<engineerTo>
+<item key="05C9BCAB-7469-C497-2C8F-10B03220358B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5886412F-AC76-8607-FA26-08932137DA7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

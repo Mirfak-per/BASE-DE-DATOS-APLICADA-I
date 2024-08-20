@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Ejemplo de modelo 2" id="25FF0A2A-4203-8D40-C051-143ABFCECC50" version="3.5">
+<createdBy>PAAPCA02LC0929</createdBy>
+<createdTime>2024-08-20 15:07:02 UTC</createdTime>
+<ownerDesignName>Ejemplo de modelo 2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>25FF0A2A-4203-8D40-C051-143ABFCECC50</designId>
+</OSDM_Design>
