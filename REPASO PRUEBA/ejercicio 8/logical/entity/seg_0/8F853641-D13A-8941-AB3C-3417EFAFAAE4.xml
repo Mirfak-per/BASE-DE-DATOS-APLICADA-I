@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F853641-D13A-8941-AB3C-3417EFAFAAE4" name="SUCURSAL">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 14:03:32 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_sucursal" id="843AA152-8599-68E3-B805-1E01346DC21B">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 14:03:47 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_sucursal" id="BC1E964B-FFC0-B826-8300-43A9EE9FCFF5">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 14:04:00 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="1C9A32F0-7A8B-9E76-291E-1882375BB0AE">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 14:04:23 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_contacto" id="F7D779BF-ADCB-C45C-DD70-79CE265C693D">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 14:05:07 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_comuna" id="765643FD-FD33-3B2B-3015-20E947542063">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 14:09:26 UTC</createdTime>
+<generatorID>43624365-744C-39D0-297F-50EDB8497A60</generatorID>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<referedAttribute>E9EE9806-BA6C-598F-C2B0-741550D2079F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_ciudad" id="8EDA6F53-5896-0A3C-C75D-451E2E59ABDE">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 14:09:26 UTC</createdTime>
+<generatorID>43624365-744C-39D0-297F-50EDB8497A60</generatorID>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<referedAttribute>3CD9CE47-9A18-F7D5-F2CB-E4266FCC15EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BCB686B0-05FD-B6A8-7411-30506E356AC1" name="SUCURSAL PK">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 14:04:21 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>843AA152-8599-68E3-B805-1E01346DC21B</attributeRef>
+<attributeRef>765643FD-FD33-3B2B-3015-20E947542063</attributeRef>
+<attributeRef>8EDA6F53-5896-0A3C-C75D-451E2E59ABDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

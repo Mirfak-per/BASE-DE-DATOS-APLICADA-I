@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C356BDD4-8827-28EF-600A-2ADD4533126C" name="CLASE_GRUPAL">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 13:47:16 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_clase" id="85B24E72-158D-C3F8-11EE-FD6753ABEF4D">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 13:48:41 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_clase" id="C73FCD83-727C-B78C-94B0-04DB5FDAA559">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 13:48:55 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="0C9E6942-B6D5-476D-7222-2E6A3FF82FDD">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 13:50:23 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo_clase" id="F3F7EFFB-C836-2902-03D6-1CEF2FBAF3E4">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 13:51:19 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_id" id="E93339D8-C237-8C1D-7F19-B75B6A6C5594">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 13:58:27 UTC</createdTime>
+<generatorID>6F53BAD0-B7AA-E04E-3961-942239201058</generatorID>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<referedAttribute>7F707DB1-9DC3-8CBE-5102-20DE4E9BDD8C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C59345E-2805-2D3D-D4A7-F6B4137FCE82" name="CLASE_GRUPAL PK">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 13:48:54 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85B24E72-158D-C3F8-11EE-FD6753ABEF4D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

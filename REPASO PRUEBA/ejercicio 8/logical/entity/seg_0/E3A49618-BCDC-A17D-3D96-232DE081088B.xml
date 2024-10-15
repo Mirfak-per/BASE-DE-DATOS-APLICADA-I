@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3A49618-BCDC-A17D-3D96-232DE081088B" name="CIUDAD">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 14:07:07 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_ciudad" id="2E5661B5-021A-0222-35D2-925F34AB943C">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 14:08:45 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_ciudad" id="0E970682-A932-8DAE-85AE-F3BA177E74E0">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 14:08:59 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8777EB34-7554-7BA5-F05E-71E2C15FF9C5" name="CIUDAD PK">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 14:08:57 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E5661B5-021A-0222-35D2-925F34AB943C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

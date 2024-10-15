@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="59436AA9-7045-52F3-449F-B1C4AC6D2EBC" name="Arc_1">
+<createdBy>PAAPCA02LC0922</createdBy>
+<createdTime>2024-10-15 13:35:03 UTC</createdTime>
+<ownerDesignName>ejercicio 8</ownerDesignName>
+<engineerTo>
+<item key="48C869D6-FA05-8111-B608-40D0FBF7133F" value="true"/>
+</engineerTo>
+<entity>4DFC8D9E-1062-DFF2-F38E-E272467961D3</entity>
+<relations>
+<relationID>18919DB4-C355-566E-86CB-D7926D208F13</relationID>
+<relationID>453516BD-2EE9-034A-5596-B0F660BC493D</relationID>
+</relations>
+</Arc>
